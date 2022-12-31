@@ -1,0 +1,479 @@
+{ "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json"
+        }
+    },
+ "height":25,
+ "infinite":false,
+ "layers":[
+        {
+         "color":"#00aa00",
+         "draworder":"topdown",
+         "id":55,
+         "name":"fon",
+         "objects":[
+                {
+                 "height":753.0303030303,
+                 "id":545,
+                 "name":"dno",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":648.9696969697,
+                 "x":211.970308050803,
+                 "y":361.520040164003
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":53,
+         "image":"\u0443\u0440\u043e\u0432\u0435\u043d\u044c\/4.png",
+         "name":"dnoImage",
+         "opacity":1,
+         "type":"imagelayer",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":25,
+         "id":26,
+         "name":"bg",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":25,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":25,
+         "id":44,
+         "name":"bg2",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":25,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":46,
+         "name":"niz",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "color":"#0000ff",
+         "draworder":"topdown",
+         "id":51,
+         "name":"money",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":100,
+                 "id":530,
+                 "name":"money",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":100,
+                 "x":463.090909090909,
+                 "y":409.939393939394
+                }, 
+                {
+                 "ellipse":true,
+                 "height":100,
+                 "id":531,
+                 "name":"money",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":100,
+                 "x":952.06060606061,
+                 "y":851.212121212121
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":52,
+         "name":"rubin",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":100,
+                 "id":533,
+                 "name":"rubin",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":100,
+                 "x":912.72727272727,
+                 "y":627.878787878788
+                }, 
+                {
+                 "ellipse":true,
+                 "height":100,
+                 "id":534,
+                 "name":"rubin",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":100,
+                 "x":958.30303030303,
+                 "y":1006.60606060606
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "color":"#55ff00",
+         "draworder":"topdown",
+         "id":24,
+         "name":"player",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":50,
+                 "id":372,
+                 "name":"player",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":50,
+                 "x":145.907455443059,
+                 "y":148.282486821187
+                }],
+         "opacity":1,
+         "tintcolor":"#aa0000",
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "color":"#ff0000",
+         "draworder":"topdown",
+         "id":25,
+         "name":"platform",
+         "objects":[
+                {
+                 "height":1257.48,
+                 "id":310,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"st",
+                 "visible":true,
+                 "width":44.3333333333336,
+                 "x":2.63707360611384,
+                 "y":-5.43249435193701
+                }, 
+                {
+                 "height":47.6666666666667,
+                 "id":537,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":1109.03,
+                 "x":2.24288129812862,
+                 "y":1.42027927167197
+                }, 
+                {
+                 "height":199.333333333333,
+                 "id":540,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":50.03,
+                 "x":201.318333333333,
+                 "y":1001
+                }, 
+                {
+                 "height":1256.819,
+                 "id":548,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"st",
+                 "visible":true,
+                 "width":46,
+                 "x":1056,
+                 "y":-2.40949999999998
+                }, 
+                {
+                 "height":190,
+                 "id":549,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":47.697,
+                 "x":850.1515,
+                 "y":1006
+                }, 
+                {
+                 "height":108,
+                 "id":550,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":159.697,
+                 "x":904.1515,
+                 "y":474
+                }, 
+                {
+                 "height":282,
+                 "id":551,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":119.697,
+                 "x":820.1515,
+                 "y":252
+                }, 
+                {
+                 "height":52,
+                 "id":552,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":113.697,
+                 "x":234.104418863136,
+                 "y":998.785847767272
+                }, 
+                {
+                 "height":44,
+                 "id":553,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":355.697,
+                 "x":498.1515,
+                 "y":1000
+                }, 
+                {
+                 "height":60,
+                 "id":554,
+                 "name":"platform",
+                 "properties":[
+                        {
+                         "name":"isStatic",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"jg",
+                 "visible":true,
+                 "width":1007.697,
+                 "x":52.1515000000001,
+                 "y":1194
+                }],
+         "opacity":1,
+         "tintcolor":"#aa55ff",
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "color":"#ffff00",
+         "draworder":"topdown",
+         "id":47,
+         "name":"start",
+         "objects":[
+                {
+                 "height":114,
+                 "id":535,
+                 "name":"start",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":116.666666666667,
+                 "x":267.090909090909,
+                 "y":69.8181818181815
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":43,
+         "name":"finih",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "color":"#ff640a",
+         "draworder":"topdown",
+         "id":50,
+         "name":"block",
+         "objects":[
+                {
+                 "height":40,
+                 "id":428,
+                 "name":"block",
+                 "rotation":0,
+                 "type":"st",
+                 "visible":true,
+                 "width":48,
+                 "x":57.3333333333333,
+                 "y":309.333333333333
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":56,
+ "nextobjectid":556,
+ "orientation":"orthogonal",
+ "renderorder":"left-up",
+ "tiledversion":"1.8.4",
+ "tileheight":50,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"kp.tsx"
+        }],
+ "tilewidth":50,
+ "type":"map",
+ "version":"1.8",
+ "width":25
+}
