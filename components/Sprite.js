@@ -12,9 +12,9 @@ import SpriteSheet from '../animate/SpriteSheet';
 
 export default class Sprite extends React.Component {
   state = {
-    loop: this.props.component.options.loop,
+    loop: this.props.options.loop,
     resetAfterFinish: false,
-    fps: this.props.component.options.fps
+    fps: this.props.options.fps
   };
 
   generateArray(l){
@@ -25,35 +25,34 @@ export default class Sprite extends React.Component {
     return a;
   }
  componentDidMount(){
-  if(this.props.component.options.play){
+  if(this.props.options.play){
     this.play("walk");
   }
- 
-  
  }
+
   render() {
-   
+ 
     const { fps, loop, resetAfterFinish } = this.state;
 
-    return this.props.component.body.map((x)=>
+    return this.props.body.map((x)=>
      
-          <View key={x.id} style={{left:x.position.x - x.width / 2,top:x.position.y - x.height / 2 }}>
-            <SpriteSheet
+          <View key={x.id} style={{left:x.position.x - x.width ,top:x.position.y - x.width ,position:"absolute"}}>
+           { <SpriteSheet
               ref={ref => (this.mummy = ref)}
-              source={this.props.src()}
-              columns={this.props.component.options.colums}
+              source={this.props.options.src}
+              columns={this.props.options.colums}
               rows={1}
-              width={x.width}
-              height = { x.height}
+              width={x.width * 2}
+              height = {x.width * 2}
               offsetX={0}
               offsetY={0}
               imageStyle={{ marginTop: -1 }}
               animations={{
-                walk: this.generateArray(this.props.component.options.frameImg),
+                walk: this.generateArray(this.props.options.frameImg),
                 appear: Array.from({ length: 15 }, (v, i) => i + 18),
                 die: Array.from({ length: 21 }, (v, i) => i + 33)
               }}
-            />
+            />}
           </View>
           
     );
