@@ -8,7 +8,7 @@ export default function TestBall(props) {
     }
 
     useEffect(() => {
- console.log(props)
+ //console.log(props)
     }, [])
    
    return (props.body[0].bodies.map((x) => <View style={

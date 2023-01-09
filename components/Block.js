@@ -1,5 +1,5 @@
 import React, { PureComponent, useEffect } from "react";
-import { StyleSheet, Text, View, Image, StatusBar } from 'react-native';
+import { StyleSheet, Text, View, Image, StatusBar, RootTagContext } from 'react-native';
 
 export default function Block(props) {
     let color = "black";
@@ -8,7 +8,7 @@ export default function Block(props) {
     }
 
     useEffect(() => {
-  
+  console.log(props.body[0].angle)
     }, [])
   
    return (props.body.map((x) => <View style={
@@ -18,7 +18,9 @@ export default function Block(props) {
             width: x.width , 
             height: x.height, 
             backgroundColor: color,
-            position:"absolute"
+            position:"absolute",
+            transform: [{ rotate: x.angle+"deg" }]
+            
         }
     } key={x.id}></View>)
     

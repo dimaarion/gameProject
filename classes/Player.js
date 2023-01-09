@@ -17,7 +17,10 @@ export default class Player {
   my = 0;
   r = 0;
   h = 0;
+  width = 0;
+  height = 0;
   countBody = 4;
+  rotates = 0;
   constructor(props) {
     this.props = props;
   }
@@ -30,11 +33,13 @@ export default class Player {
       this.r = this.b.size(x.width)
       this.mx = this.b.size(x.x + x.width / 2);
       this.my = this.b.size(x.y + x.height / 2);
+      this.width = this.b.size(x.width);
+      this.height = this.b.size(x.height);
       return this.b.Bodies.circle(
         this.b.size(x.x + x.width / 2),
         this.b.size(x.y + x.height / 2),
         this.b.size(x.width),
-        { width: this.b.size(x.width) }
+        { width: this.b.size(x.width)}
       )
     });
 
@@ -43,44 +48,67 @@ export default class Player {
   }
 
   createBody() {
+
     let r = this.r;
     var group = Matter.Body.nextGroup(true);
-    this.body2[0] = Matter.Composites.stack(this.x, this.y + r + 10, this.countBody, 1, 10, 10, function (x, y) {
+    this.body2[0] = Matter.Composites.stack(this.x - r, this.y + r, this.countBody, 1, 1, 1, function (x, y) {
       return Matter.Bodies.circle(x, y, r, { collisionFilter: { group: group } });
     });
-    Matter.Composites.chain(this.body2[0], 0.5, 0, -0.5, 0, { stiffness: 0.1, length: 2, render: { type: 'line' } });
+    Matter.Composites.chain(this.body2[0], 0.5, 0, -0.5, 0, { stiffness: 0.8, length: 1, render: { type: 'line' } });
     Matter.Composite.add(this.body2[0], Matter.Constraint.create({
       bodyB: this.body2[0].bodies[0],
-      pointB: { x: -20, y: 0 },
-      pointA: { x: this.body2[0].bodies[0].position.x, y: this.body2[0].bodies[0].position.y },
-      stiffness: 0.1
+      pointB: { x: 0, y: 0 },
+      pointA: { x: this.body[0].position.x, y: this.body[0].position.y },
+      stiffness: 0.8,
+
     }));
 
     /*
-    this.body2[0] = this.b.Bodies.circle(
-      this.b.size(windowWidth / 2 + this.r ),
-      this.b.size(windowHeight / 2 + this.r  ),
-      this.r,{width:this.r});*/
+   this.body2 =  createArray(5).map((x,i)=>this.b.Bodies.rectangle(500,i * this.width,this.width,this.height,
+     {width:this.width,height:this.height}))
+     console.log(this.body2)*/
     this.body2.map((x) => this.b.World.add(this.props, x));
     return this.body2;
   }
 
-  composite() {/*
-  var constraint = this.b.Constraint.create({
-        pointA: {x: this.mx,y:this.my},
-        bodyB: this.body2[0].bodies[0],
-        pointB: {x: -20,y:-200}
-    });
-
-    
-  this.b.Composite.add(this.props,[this.body[0],constraint]) ;*/
+  composite() {
+    /*
+         var constraint = this.b.Constraint.create({
+          pointA: {x: this.body2[0].position.x,y:this.body2[0].position.y},
+          bodyA: this.body2[0],
+          bodyB: this.body2[2],
+          pointB:{x: this.body2[2].position.x,y:this.body2[2].position.y},
+          length:10,
+          stiffness:0.5
+      });
+  
+      
+     this.b.Composite.add(this.props,constraint)  ;*/
   }
+
+ 
 
   isSensor(t) {
     this.body.map((x) => (x.isSensor = t));
   }
 
-  setInnertia(body,t){
-        body.map((x) => (Matter.Body.setInertia(x,t)));
+  setInnertia(body, t) {
+    body.map((x) => (Matter.Body.setInertia(x, t)));
   }
+
+  rotate(n) {
+    this.body.map((x) => Matter.Body.rotate(x, n))
+  }
+  setDensity(n) {
+    this.body.map((x) => Matter.Body.setDensity(x, n))
+  }
+  setInertia(n){
+    this.body.map((x) => Matter.Body.setInertia(x, n))
+  }
+  setMass(n){
+    this.body.map((x) => Matter.Body.setMass(x, n))
+  }
+  setStatic(t) {
+    this.body.map((x) => Matter.Body.setStatic(x, n))
+}
 }

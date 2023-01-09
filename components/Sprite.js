@@ -36,7 +36,8 @@ export default class Sprite extends React.Component {
 
     return this.props.body.map((x)=>
      
-          <View key={x.id} style={{left:x.position.x - x.width ,top:x.position.y - x.width ,position:"absolute"}}>
+          <View key={x.id} style={{left:x.position.x - x.width ,top:x.position.y - x.width ,position:"absolute", transform: [{ rotate: x.angle+"deg" }]}}>
+           
            { <SpriteSheet
               ref={ref => (this.mummy = ref)}
               source={this.props.options.src}

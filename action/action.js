@@ -27,8 +27,8 @@ export function camera(e, player, scena, Matter) {
           })
         )
       : Matter.Body.translate(e, {
-          x: -player.position.x + scena.x,
-          y: -player.position.y + scena.y,
+          x: -player.position.x + +  windowWidth / 2,
+          y: -player.position.y +  windowHeight / 2 ,
         });
         
   }
@@ -55,4 +55,26 @@ export function createArray(num){
   }
   return false;
 };
+
+
+ function procentIn(n, p) {
+  return (n / 100) * p;
+}
+export function procent(x) {
+  let r = windowWidth + windowHeight;
+  return procentIn(r, x);
+}
+export function procentX(x) {
+  let r = windowWidth;
+  return procentIn(r, x);
+}
+export function procentY(x) {
+  let r = windowHeight;
+  return procentIn(r, x);
+}
+export function procentInv(n, p) {
+  return (p * 100) / n;
+}
+
+
 
